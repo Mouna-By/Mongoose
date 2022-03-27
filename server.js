@@ -6,7 +6,7 @@ const app = express();
 require('dotenv').config()
 // 6 connectDB
 const connectDB = require('./config/connectDB')
-connectDB
+connectDB ()
 // require Pesron
 const Person = require("./models/Person")
 
